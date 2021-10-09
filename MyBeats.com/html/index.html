@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MY BEATS</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--Navigationbar-->
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFE12D;">
+    <div class="container-fluid">
+      <a class="navbar-brand mybrand" href="#">
+        <img src="images/MYBEATS!.PNG" alt="MY Beats" class="mylogo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active mynav" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mynav" aria-current="page" href="#">Recent</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle mynav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Genre
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Trap</a></li>
+              <li><a class="dropdown-item" href="#">Drill</a></li>
+              <li><a class="dropdown-item" href="#">Happy</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--Carousel-->
+
+  <div id="carouselExampleControls"class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active mypicture" data-bs-interval="10000">
+        <img src="images/Ponda.jpg" class="d-block w-100" alt="Productpicture">
+        <div class="carousel-caption d-none d-md-block">
+          <button type="button" class="mybutton" name="button">
+          <h5 class="mypheading">Ponda</h5>
+          <p class="mypp">Only NOW BUY IT.</p>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item mypicture" data-bs-interval="10000">
+        <img src="images/Fonda.jpg" class="d-block w-100" alt="Productpicture">
+        <div class="carousel-caption d-none d-md-block">
+          <button type="button" id="mydark" class="mybutton" name="button">
+          <h5 class="mypheading">Fonda</h5>
+          <p class="mypp">Beautyful Atmosphere with Fonda Prod. by Pineapple.</p>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item mypicture" data-bs-interval="10000">
+        <img src="images/Ronda.jpg" class="d-block w-100" alt="Productpicture">
+        <div class="carousel-caption d-none d-md-block">
+          <button type="button" id="mylightblue" class="mybutton" name="button">
+          <h5 class="mypheading">Ronda</h5>
+          <p class="mypp">Some representative Music for your Mood.</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--description-->
+
+  <div class="container myart">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Perfection</h1>
+        <p class="mycp">Why are our Beatreleases so rare?</p>
+        <p class="mycp">Because our highest good is quality. We work on every single beat until it is perfect for us and we hope it is perfect for you too.
+        Due to our fast workflow and our leading mindset "never stop enjoying, only stop working", we produce around five to ten beats per day. Only a few meet our high expectations and reach this plattform.
+      Every day we chase our dream and we hope that our beats help you to chase yours. So never forget: "be happy for everything, but reach out for perfection"</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/Mischbums.jpg" id="myartpp" class="myartp" alt="Producingpicture">
+      </div>
+    </div>
+    <div class="row myrow">
+      <div class="col-md-6">
+        <img src="images/Course.jpg" id="myartpp1"  class="myartp" alt="Courses">
+      </div>
+      <div class="col-md-6">
+        <h1>Courses</h1>
+        <p class="mycp">Do you want to lern to do it yourself?</p>
+        <p class="mycp">Yes, it is true. We offer professional Music Producer Courses on this website. We planed very precise what to teach in which lesson to provide as much useful knowledge to you. We invested much time and effort in this project to help you get a better Music Producer.
+        In our beginner course you will learn all the basic and simple tricks you need to know to get started with your first music production. The intermediat course is for people with some experience, we will show the more indepth functions and very useful tricks and rules.
+      </p>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+
+</html>

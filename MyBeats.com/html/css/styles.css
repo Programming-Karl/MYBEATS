@@ -1,0 +1,89 @@
+.mylogo{
+  width: 100%;
+  height: 100%;
+}
+
+.mynav{
+  font-size: 180%;
+  margin: 0 15px;
+}
+
+.mybrand{
+  display: inline-block;
+  width: 15%;
+}
+
+.mypicture{
+  max-height: 600px;
+}
+
+.mypheading{
+  font-size: 200%;
+}
+
+.mypp{
+  font-size: 150%;
+}
+
+.mybutton{
+ border-radius: 10px;
+ border-color: white;
+ color: white;
+ background-color: rgba(255,255,255,0);
+ border-style: solid;
+}
+
+.mybutton:hover{
+  color: #FFE12D;
+  border-color:#FFE12D;
+}
+
+.mybutton:active {
+  transform: translateY(2px);
+}
+
+#mydark{
+  border-color: #9FBFF5;
+  color: #9FBFF5;
+}
+
+#mydark:hover{
+  color: #FFE12D;
+  border-color:#FFE12D;
+}
+
+#mylightblue{
+  border-color: #553C0F;
+  color: #553C0F;
+}
+
+#mylightblue:hover{
+  color: #FFE12D;
+  border-color: #FFE12D;
+}
+
+#myartpp{
+  padding-left: 80px;
+}
+
+#myartpp1{
+  padding-right: 80px;
+}
+
+.myart{
+  margin-top: 75px;
+}
+
+.mycp{
+  font-size: 130%;
+}
+
+.myartp{
+  max-width: 600px;
+  max-height: 370px;
+  margin: auto;
+}
+
+.myrow{
+  padding-top: 75px;
+}
